@@ -7,6 +7,5 @@
 
 
 <p align="center">
-  <img src="./metrics.topics.svg" width="49%" />
   <img src="./metrics.notable.svg" width="49%" />
 </p>
