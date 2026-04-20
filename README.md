@@ -7,7 +7,6 @@
 
 <p align="center">
   <img src="./metrics.languages.svg" width="49%" />
-  <img src="./metrics.achievements.svg" width="49%" />
 </p>
 
 <p align="center">
