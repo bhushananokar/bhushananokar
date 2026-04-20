@@ -73,7 +73,7 @@ jobs:
 
       # ── 6. Notable contributions ────────────────────────────────────
       - name: Notable Contributions
-        uses: bhushananokar/metrics@latest
+        uses: bhushananokar/metrics@main
         with:
           filename: metrics.notable.svg
           token: ${{ secrets.METRICS_TOKEN }}
