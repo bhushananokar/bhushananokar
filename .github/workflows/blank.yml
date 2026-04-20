@@ -19,7 +19,7 @@ jobs:
 
       # ── 1. Base stats + isometric calendar ──────────────────────────
       - name: Isometric Calendar
-        uses: lowlighter/metrics@latest
+        uses: bhushananokar/metrics@master
         with:
           filename: metrics.isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -29,7 +29,7 @@ jobs:
 
       # ── 2. Languages breakdown ───────────────────────────────────────
       - name: Languages
-        uses: lowlighter/metrics@latest
+        uses: bhushananokar/metrics@master
         with:
           filename: metrics.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -43,7 +43,7 @@ jobs:
 
       # ── 3. GitHub stats (base section) ──────────────────────────────
       - name: Base Stats
-        uses: lowlighter/metrics@latest
+        uses: bhushananokar/metrics@master
         with:
           filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -51,7 +51,7 @@ jobs:
 
       # ── 4. Achievements ─────────────────────────────────────────────
       - name: Achievements
-        uses: lowlighter/metrics@latest
+        uses: bhushananokar/metrics@master
         with:
           filename: metrics.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -62,7 +62,7 @@ jobs:
 
       # ── 5. Starred topics ───────────────────────────────────────────
       - name: Topics
-        uses: lowlighter/metrics@latest
+        uses: bhushananokar/metrics@master
         with:
           filename: metrics.topics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -73,7 +73,7 @@ jobs:
 
       # ── 6. Notable contributions ────────────────────────────────────
       - name: Notable Contributions
-        uses: bhushananokar/metrics@main
+        uses: bhushananokar/metrics@master
         with:
           filename: metrics.notable.svg
           token: ${{ secrets.METRICS_TOKEN }}
